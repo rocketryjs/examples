@@ -3,9 +3,8 @@
 	Description: Enables you to draw by pressing on the button to light, pulse, flash, erase and more
 	Compatibility: RGB capable Launchpads
 */
-/*
-	Module dependencies
-*/
+
+
 const _ = require("lodash");
 const rocketry = require("@rocketry/core");
 

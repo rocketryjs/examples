@@ -4,9 +4,8 @@
 	Compatibility: RGB capable Launchpads
 	WARNING: Do not run if you are sensitive to flashing lights
 */
-/*
-	Module dependencies
-*/
+
+
 const _ = require("lodash");
 const rocketry = require("@rocketry/core");
 

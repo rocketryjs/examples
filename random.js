@@ -7,11 +7,13 @@
 
 
 const _ = require("lodash");
-const rocketry = require("@rocketry/core");
+require("@rocketry/core");
+require("@rocketry/plugin-node-midi");
+const {default: LaunchpadMk2} = require("@rocketry/device-launchpad-mk2");
 
 
 // Create new launchpad
-const launchpad = new rocketry();
+const launchpad = new LaunchpadMk2();
 
 // Light each button using lodash's simple random function
 const lightRandom = function() {

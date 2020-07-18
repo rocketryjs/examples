@@ -26,7 +26,7 @@
     "@rocketry/core": "file:../rocketry",
     "@rocketry/plugin-node-midi": "file:../plugin-node-midi",
     "@rocketry/device-launchpad-mk2": "file:../device-launchpad-mk2",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "engines": {
     "node": ">=8.0.0"
